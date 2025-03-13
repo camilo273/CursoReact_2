@@ -1,0 +1,24 @@
+button {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;
+    
+    height: 100px;
+    width: 100px;
+    right: 24px;
+    bottom: 24px;
+    position: fixed;
+    font-size: 60px; /* Tamaño del texto */
+    line-height: 60px;
+    background-color: #007bff; /* Color de fondo (puedes cambiarlo) */
+    color: white; /* Color del texto */
+  }
+
+  button:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse (puedes cambiarlo) */
+    font-size: 80px; /* Tamaño del texto */
+    line-height: 80px;
+}
