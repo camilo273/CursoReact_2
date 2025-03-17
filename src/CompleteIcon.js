@@ -1,8 +1,12 @@
 import React from "react";
-import { FaCheck } from "react-icons/fa";
+import { TodoIcon } from "./TodoIcon";
 
 function CompleteIcon() {
-  return <FaCheck />;
+  return (
+     <TodoIcon 
+      type="check"
+      color="gray"
+  />);
 }
 
 export { CompleteIcon };
