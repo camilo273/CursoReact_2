@@ -2,18 +2,11 @@
   "name": "platzi-intro-react-base",
   "version": "0.1.0",
   "dependencies": {
-<<<<<<< HEAD
-    "react": "^18",
-    "react-dom": "^18",
-    "react-icons": "^5.5.0",
-    "react-scripts": "^3.0.1",
-=======
     "@svgr/hast-util-to-babel-ast": "^8.0.0",
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^5.5.0",
     "react-scripts": "^5.0.1",
->>>>>>> 6b24ba0 (Lets dance)
     "web-vitals": "^2.1.4"
   },
   "scripts": {
