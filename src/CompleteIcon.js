@@ -1,7 +1,9 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa";
-function DeleteIcon() {
+
+function CompleteIcon() {
   return <FaCheck />;
 }
 
-export {DeleteIcon};
+export { CompleteIcon };
+
