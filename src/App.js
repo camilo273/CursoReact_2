@@ -56,7 +56,7 @@ function App() {
           onComplete={() => completeTodo(todo.text)}
           onDelete={() => deleteTodo(todo.text) }
           />
-        ))}
+        ))}                   
       </TodoList> 
 
       <CreateTodoButton />

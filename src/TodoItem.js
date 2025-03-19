@@ -6,7 +6,7 @@ function TodoItem(props) {
     <li className='TodoItem'>
       <CompleteIcon 
         completed={props.completed}
-        onClick={props.onComplete}
+        onComplete={props.onComplete}
       
       />
       <p className={`TodoItem-p ${props.completed && "TodoItem-p--complete"}`}>{props.text}</p>
