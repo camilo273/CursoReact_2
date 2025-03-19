@@ -36,3 +36,11 @@
     width: 24px;
     height: 24px;
   }
+
+  .Icon-container-delete:hover .Icon-svg {
+    fill: #ff6768;
+  }
+
+  .Icon-container-check:hover .Icon-svg {
+    fill: green;
+  }
